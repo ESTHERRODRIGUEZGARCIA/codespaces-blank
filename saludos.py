@@ -1,6 +1,7 @@
 class Saludo():
-    def __init__(self):
-        print("Hola mundo desde el init de la clase saludo!")
+    def __init__(self, nombre):
+        self.nombre = nombre
+
     def saludar(self):
-        print("Hola mundo!")
+        print("Hola mundo!", self.nombre)
 

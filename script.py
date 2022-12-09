@@ -1,3 +1,4 @@
-from saludos import Saludo
+from test.saludos import *
 
 saludo = Saludo("Mundo")
+saludo.saludar()

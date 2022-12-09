@@ -4,4 +4,4 @@ class Saludo:
         self.nombre = nombre
 
     def saludar(self):
-            print("Hola, soy ", self.nombre)
+        print("Hola, soy ", self.nombre)

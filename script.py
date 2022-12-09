@@ -1,2 +1,3 @@
-from saludo import saludar
-saludar()
+from saludos import Saludo
+
+saludo = Saludo("Mundo")
